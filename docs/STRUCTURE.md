@@ -1,44 +1,32 @@
-# Portfolio organization
+# Portfolio overview
 
-The profile repository is an index and a home for project write-ups; executable projects remain in their existing repositories.
+I use this portfolio to bring together my robotics and computer vision projects, academic work, and internship experience. Each overview explains the project’s context, my contribution, and its current status. Code and setup instructions are available in the individual repositories.
 
-| Path | Purpose |
+## Selected projects
+
+- **Duckietown:** An academic robotics project involving a miniature autonomous vehicle, with work on lane following and obstacle avoidance using ROS.
+- **Wind-blade inspection robot:** An overview of my wall-climbing robot thesis, covering the robot’s design and its intended use in wind turbine blade maintenance.
+- **Surface inspection:** A separate computer vision extension that explores visual defect detection. Its documentation distinguishes the implementation from the original thesis work and identifies its validation limits.
+- **Underwater robotics:** Background on my class project, with a link to the supporting simulation workspace.
+
+## Internship experience
+
+**Plan4Co:** A public summary of my work on data preparation, forecasting, and workflow automation. Company datasets and private source code are excluded to respect confidentiality.
+
+## Coursework and supporting repositories
+
+My coursework is listed in `COURSEWORK.md`, covering C, C++, algorithms, MATLAB, robotics, computer vision, and an unfinished chess web application.
+
+The `Computer_Vision` repository separates academic assignments from the surface-inspection extension. Supporting workspaces and forks, including UUV, darknet, and a ROS line follower, are listed separately with attribution to their original authors.
+
+## Finding your way around
+
+| Location | What you’ll find |
 | --- | --- |
-| README.md | Introduction and selected project links |
-| COURSEWORK.md | Supporting academic repositories |
-| projects/wind-blade-inspection/ | Thesis overview and link to the new inspection implementation |
-| projects/underwater-robotics/ | Class project context and simulation link |
-| experience/plan4co/ | Public internship summary |
-| docs/ | Portfolio structure and maintenance notes |
+| `README.md` | Introduction and selected project links |
+| `COURSEWORK.md` | Academic repositories and assignments |
+| `projects/wind-blade-inspection/` | Thesis overview and inspection implementation link |
+| `projects/underwater-robotics/` | Class project overview and simulation link |
+| `experience/plan4co/` | Public internship summary |
 
-Existing ROS package paths, assignment folders and MATLAB helper locations are retained. New executable projects should add source, tests and examples when those files actually exist; empty template folders are unnecessary.
-
-## Maintenance record — September 2026
-
-- Updated portfolio links for the BadrEss01 username.
-- Renamed foundational study repositories with a `coursework-` prefix to distinguish coursework from selected projects.
-- Renamed the profile repository to `BadrEss01` so its README is displayed on the account profile.
-- Pinned Duckie_Town and Computer_Vision as the primary profile projects.
-- Added project overviews and separate coursework navigation.
-- Removed generated executables, ROS outputs and Python bytecode from selected current branches; Git history retains them.
-- Corrected chess setup folder names and documented its unfinished status.
-- Replaced the C++ workflow's absent Visual Studio solution with a checked introductory GCC example.
-- Documented runtime and attribution limits.
-
-## Remaining external dependencies
-
-- cars-free still returned 404 through the connected GitHub account.
-- No company data or private code was published.
-
-## Navigation categories
-
-| Category | Entries | Presentation |
-| --- | --- | --- |
-| Selected projects | Duckietown, wind-blade thesis overview, surface-inspection extension | First section of the portfolio; academic origin and evidence status retained |
-| Experience | Plan4Co | Separate public summary, with no company code |
-| Coursework | coursework-c, coursework-cpp, coursework-algorithms, coursework-matlab, coursework-robotics, Computer_Vision assignments, coursework-chess-webapp | Dedicated COURSEWORK.md index and collapsed homepage section |
-| Supporting archives/frameworks | UUV workspace, darknet fork, ROS line-follower fork | Separate supporting section with attribution |
-
-Each maintained repository README has a category label and navigation back to projects/coursework. Computer_Vision explicitly separates its assignment directories from the applied inspection extension.
-
-No repository has been deleted, archived, made private, or otherwise destructively changed; renames preserve history and GitHub redirects.
+Repository documentation includes setup instructions where available, along with notes on unfinished work, runtime limitations, and attribution.
