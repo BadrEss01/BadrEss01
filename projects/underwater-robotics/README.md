@@ -1,17 +1,11 @@
-# Underwater robotics — RAMI / BlueROV
+# Underwater Robotics — RAMI / BlueROV
 
-Badr reports working in a class team on a BlueROV underwater-robotics project associated with RAMI/METRICS, with a perception/detection responsibility.
+As part of a class team, I worked on a BlueROV underwater robotics project associated with RAMI/METRICS. My role focused on perception and detection.
 
-## Available public material
+## Simulation environment
 
-The [UUV simulation workspace](https://github.com/BadrEss01/UUV_Simulator) contains ROS 1 / Gazebo simulator infrastructure. Its [context notes](https://github.com/BadrEss01/UUV_Simulator/blob/main/docs/RAMI_CONTEXT.md) distinguish the class project from upstream simulator capabilities.
+The [UUV simulation workspace](https://github.com/BadrEss01/UUV_Simulator) contains ROS 1 and Gazebo infrastructure for underwater robotics simulation. The [project context notes](https://github.com/BadrEss01/UUV_Simulator/blob/main/docs/RAMI_CONTEXT.md) explain how it relates to our class project and credit the upstream simulator.
 
-This material currently supports discussion of the simulation environment. It does not verify the personal detection implementation, training data, competition result or physical-robot deployment.
+The public repository documents the simulation environment. My original detection work is not included, so it provides only a partial view of my contribution.
 
-## Sensor and contribution record
-
-Earlier recollections differed between camera imagery, lidar and sonar. No specific modality is asserted here until a project report or code identifies it. Framework code is attributed upstream, rather than presented as a personal implementation.
-
-The useful next artifact is the original detection script, dataset example, report or presentation. Those can establish sensor input, processing steps, personal contribution and observed output.
-
-[Portfolio](../../README.md)
+[Back to portfolio](../../README.md)
