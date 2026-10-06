@@ -1,12 +1,10 @@
 # Coursework
 
-> **Academic exercises and study projects**
->
-> [Return to selected projects](README.md#selected-projects)
+These repositories bring together exercises and study projects from my programming, robotics, and computer vision coursework.
 
-This index keeps foundational exercises and historical work separate from the selected projects on the [portfolio homepage](README.md). Repository names use a `coursework-` prefix where they represent foundational study work.
+[View selected projects](README.md#selected-projects)
 
-## Foundational coursework
+## Programming and robotics
 
 | Area | Repository |
 | --- | --- |
@@ -15,22 +13,24 @@ This index keeps foundational exercises and historical work separate from the se
 | Algorithms and data structures | [coursework-algorithms](https://github.com/BadrEss01/coursework-algorithms) |
 | MATLAB | [coursework-matlab](https://github.com/BadrEss01/coursework-matlab) |
 | Introductory robotics | [coursework-robotics](https://github.com/BadrEss01/coursework-robotics) |
-| Computer vision assignments | [Computer_Vision](https://github.com/BadrEss01/Computer_Vision) — hw1–hw3; the inspection extension is linked separately in the portfolio |
+| Computer vision | [Computer_Vision](https://github.com/BadrEss01/Computer_Vision) — assignments `hw1`–`hw3` and [image augmentation / CNN coursework](https://github.com/BadrEss01/Computer_Vision/tree/main/hada) |
 
-The computer-vision repository has undergone a focused repair and test pass. The C/C++ repositories now have build instructions and a checked introductory example; the C++ example also has a smoke-build workflow. The remaining entries have navigation and scope documentation. This does not imply that every assignment has been rebuilt or behavior-tested.
+The C and C++ repositories include build instructions and a verified introductory example. The computer vision assignments have received targeted fixes and testing. Other repositories preserve earlier coursework, with documentation describing their scope and setup where available.
 
-## Secondary academic project
+The surface-inspection extension in `Computer_Vision` is presented separately in my [portfolio](README.md).
 
-- [coursework-chess-webapp](https://github.com/BadrEss01/coursework-chess-webapp): historical React/Django web application with corrected setup paths; game implementation and runtime validation remain incomplete.
+## Other academic work
 
-## Supporting archives and upstream frameworks
+[**Chess web application**](https://github.com/BadrEss01/coursework-chess-webapp) — An unfinished React and Django study project. Setup paths have been corrected, but the game implementation and runtime validation remain incomplete.
 
-These support learning or project development and are not featured as original implementations.
+## Supporting frameworks
 
-- [UUV_Simulator](https://github.com/BadrEss01/UUV_Simulator): historical simulation workspace and upstream packages.
-- [darknet](https://github.com/pjreddie/darknet)
-- [Line-Follower--ROS](https://github.com/arjunskumar/Line-Follower--ROS)
+I also keep a supporting simulation workspace and links to frameworks used for learning and project development:
 
-These are upstream resources, not claims of authorship of those systems. Their original attribution and licensing should be retained.
+- [UUV_Simulator](https://github.com/BadrEss01/UUV_Simulator) — Underwater robotics simulation workspace containing upstream packages.
+- [darknet](https://github.com/pjreddie/darknet) — Upstream computer vision framework.
+- [Line-Follower--ROS](https://github.com/arjunskumar/Line-Follower--ROS) — Upstream ROS line-following project.
 
-Private company repositories and third-party projects without confirmed access are intentionally not published or mirrored here.
+These frameworks are the work of their original authors; attribution and licensing information are retained.
+
+[Back to portfolio](README.md)
