@@ -13,7 +13,7 @@ These repositories bring together exercises and study projects from my programmi
 | Algorithms and data structures | [coursework-algorithms](https://github.com/BadrEss01/coursework-algorithms) |
 | MATLAB | [coursework-matlab](https://github.com/BadrEss01/coursework-matlab) |
 | Introductory robotics | [coursework-robotics](https://github.com/BadrEss01/coursework-robotics) |
-| Computer vision | [Computer_Vision](https://github.com/BadrEss01/Computer_Vision) — assignments `hw1`–`hw3` |
+| Computer vision | [Computer_Vision](https://github.com/BadrEss01/Computer_Vision) — assignments `hw1`–`hw3` and [image augmentation / CNN coursework](https://github.com/BadrEss01/Computer_Vision/tree/main/coursework/hada) |
 
 The C and C++ repositories include build instructions and a verified introductory example. The computer vision assignments have received targeted fixes and testing. Other repositories preserve earlier coursework, with documentation describing their scope and setup where available.
 
